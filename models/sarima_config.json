@@ -1,0 +1,40 @@
+{
+  "tipo": "SARIMAX (statsmodels)",
+  "order": [
+    1,
+    0,
+    1
+  ],
+  "seasonal_order": [
+    1,
+    1,
+    1,
+    24
+  ],
+  "trend": null,
+  "enforce_stationarity": false,
+  "enforce_invertibility": false,
+  "freq": "h",
+  "params": {
+    "ar.L1": 0.1378684500763486,
+    "ma.L1": -0.09404075164573746,
+    "ar.S.L24": -0.05034926850532115,
+    "ma.S.L24": -0.8871365588385685,
+    "sigma2": 0.3732337254622431
+  },
+  "measurement": "demo",
+  "field": "temperatura_sintetica",
+  "n_observaciones": 504,
+  "rango_entrenamiento": {
+    "inicio": "2026-10-31 22:00:00",
+    "fin": "2026-11-21 21:00:00"
+  },
+  "metricas_test": null,
+  "aic": 886.7038923675246,
+  "entrenado_en": "2026-11-21 22:59 UTC",
+  "versiones": {
+    "statsmodels": "0.15.0",
+    "pandas": "2.2.3",
+    "numpy": "2.2.5"
+  }
+}
